@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <header class="hero" id="home">
+      <p class="hero-label">SOFTWARE ENGINEERING / HOSPITALITY</p>
+      <h1>From Hospitality to Technology</h1>
+      <h2>Software Engineering Student</h2>
+      <p>
+        I'm a software engineering student at the University of Montana in
+        Missoula, Montana. I am currently building my skills through web
+        development, python, and game development. I am a lifelong hospitality
+        worker with a passion for technology and working with others!
+      </p>
+      <a href="#projects" class="hero-button">Explore My Work →</a>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Im a software engineering student who enjoys building websites, working
+        with Python, and developing games.
+      </p>
+    </section>
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <h3>Hospitality and Management</h3>
+      <p>
+        I have over 15 years of experience in hospitality, including bartending
+        as well as restaurant management. My background has helped me in
+        countless ways including communication, leadership , and problem-solving
+        skills.
+      </p>
+    </section>
+    <section id="projects" class="ticket-station">
+      <h2> Completed Orders! *86*</h2>
+      <div class="ticket-rail">
+        <article class="ticket" data-project="company">
+          <p class="ticket-numer">ORDER #001</p>
+          <h3>Company Website</h3>
+          <p>
+            A website developed using Django and Python skills. This project
+            features multiple pages, reusable HTML templates, product listings,
+            and automated tests.
+          </p>
+          <a href="GITHUB REPO URL">View on GitHub</a>
+        </article>
+        <article class="ticket" data-project="yuma">
+          <p class="ticket-number">ORDER #002</p>
+          <h3>Downhill Yuma</h3>
+          <p>
+            A 2d platformer developed using Godot and GDScript. Deatures player
+            movement, obstacles, collectibles, health, and interactive level
+            design.
+          </p>
+        </article>
+        <article class="ticket" data-project="personal">
+          <p class="ticket-number">ORDER #003</p>
+          <h3>Personal Website</h3>
+          <p>
+            A personal website developed using Django, Python, and HTML.
+            features a homepage, About page, reusable templates, and automated
+            tests.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <h3>Programming Languages</h3>
+      <p>Python, HTML, CSS, GDScript</p>
+      <h3>Frameworks and Tools</h3>
+      <p>Django, Godot Engine, Git, GitHub, VS Code</p>
+      <h3>Computer Science Concepts</h3>
+      <p>
+        Data Structures, Algorithms, Object Oriented Programming, Version
+        Control
+      </p>
+    </section>
+    <section id="Contact">
+      <h2>Contact Me</h2>
+      <p>Interested in getting in touch? Feel free to reach out!</p>
+      <a href="" mailto:...@..com>Email Me</a>
+    </section>
+    <dialog id="project-viewer">
+      <button id="close-viewer">x</button>
+      <h2 id="viewer-title"></h2>
+      <img id="viewer-image" src="" alt="" hidden />
+      <p id="viewer-description"></p>
+      <a id="viewer-link" href="#">View Project on GitHub</a>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
